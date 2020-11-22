@@ -10,4 +10,8 @@ public class BadmintonCoach implements Coach {
 		return "Hit the feather rather than the ball";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
 }
