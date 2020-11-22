@@ -31,10 +31,9 @@ public class COMPUTFortuneService implements FortuneService {
 		theFortunes = new ArrayList<String>();
 		
 		//read fortune from file
-		try  {
+		try (BufferedReader br = new BufferedReader(
+				new FileReader(theFile))) {
 			
-			BufferedReader br = new BufferedReader(
-					new FileReader(theFile));
 			String tempLine;
 			
 			while ((tempLine = br.readLine()) != null) {
