@@ -25,7 +25,7 @@ public class TennisCoach implements Coach {
 	*/
 	
 	
-	// Qualifier used with constructor
+	// Qualifier  constructor
 	/*    @Autowired
     public TennisCoach(@Qualifier("randomFortuneService") FortuneService theFortuneService) {
 
