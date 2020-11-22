@@ -24,6 +24,17 @@ public class TennisCoach implements Coach {
 	}
 	*/
 	
+	
+	// Qualifier used with constructor
+	/*    @Autowired
+    public TennisCoach(@Qualifier("randomFortuneService") FortuneService theFortuneService) {
+
+        System.out.println(">> TennisCoach: inside constructor using @autowired and @qualifier");
+        
+        fortuneService = theFortuneService;
+    }
+    */
+	
 	/*
 	@Autowired
 	public TennisCoach(FortuneService theFortuneService) {
