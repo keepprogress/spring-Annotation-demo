@@ -14,7 +14,7 @@ public class SwimCoach implements Coach {
 	
 	
 	public SwimCoach(FortuneService theFortuneService) {
-		fortuneService = theFortuneService;		
+		this.fortuneService = theFortuneService;		
 	}
 	@Override
 	public String getDailyWorkout() {
